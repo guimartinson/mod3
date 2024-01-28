@@ -1,0 +1,81 @@
+<!-- Author: Guilherme dos Santos
+	 Course: CGS1821-0M1 
+	 Date: 01/21/2024 
+	 Assignment: Module 2 Homework with Halloween Case -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/main_rwd.css">
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Creepster">
+	<title>Halloween_Store</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+	<meta name= "viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href="../styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="../js/jquery.slicknav.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#nav_bar').slicknav({prependTo:"#mobile_menu"});
+		});
+	</script>
+</head>
+<body> 
+	<header>
+		<img src="../images/pumpkin.gif" alt="pumpkin" id ="header_img">
+		<section>
+			<h2> The Halloween Store</h2>
+			<h3> For the little Goblin in all of us!</h3>
+		</section>
+	</header>
+	<nav id = "mobile_menu"></nav>
+	<nav id = "nav_bar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li>
+                <a>Product List</a>
+                <ul>
+                    <li><a href="props.html" class="current">Props</a></li>
+                    <li><a href="costumes.html">Costumes</a></li>
+                    <li><a href="special.html">Special FX</a></li>
+                    <li><a href="masks.html">Masks</a></li>
+                </ul>
+            </li>
+            <li><a href="../personal/personal.html">Personal</a></li>
+            <li>
+                <a>Decorating Ideas</a>
+                <ul>
+                    <li><a href="../ideas/indoor.html">Indoor</a></li>
+                    <li><a href="../ideas/outdoor.html">Outdoor</a></li>
+                    <li><a href="../ideas/table.html" >Table</a></li>
+                    <li><a href="../ideas/treats.html">Treats</a></li>
+                </ul>
+            </li>
+            <li><a href="../email.html">Join Email</a></li>
+        </ul>
+	</nav>
+	<section>
+		<h2>Under Construction</h2>
+    	<p>We're working on something exciting for you. Please check back soon!</p>
+		
+		<h3 id="linespace">My guarantee</h3>
+		<p >If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>
+        <p><a href="mailto:you@whatever.com?cc=yourInstructorFirstName.LastName@sfcollege.edu&subject=The%20Halloween%20Store">Email me with any questions or comments.</a></p>
+	</section>
+	<aside id = "nav_vertical">
+        <ul>
+            <li><a href="props.html">Props</a></li>
+            <li><a href="costumes.html">Costumes</a></li>
+            <li><a href="special.html">Special FX</a></li>
+            <li><a href="masks.html">Masks</a></li>
+        </ul>
+	</aside>
+<footer>
+	<p> &copy; 2022 Ben Murach</p>
+</footer>
+</body>
+</html>
